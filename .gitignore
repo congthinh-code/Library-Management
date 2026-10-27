@@ -1,0 +1,26 @@
+# Node Modules & Build Tools
+node_modules/
+dist/
+out-build/
+.angular/
+
+# Environment Variables (Chứa secret key, DB credentials)
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs & Diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# IDE & System Files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+.DS_Store
+Thumbs.db
